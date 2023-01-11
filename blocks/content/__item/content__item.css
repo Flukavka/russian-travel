@@ -1,0 +1,7 @@
+.content__item:first-child {
+  margin-top: 56px;
+}
+
+.content__item {
+  margin-bottom: 92px;
+}
