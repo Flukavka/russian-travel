@@ -5,3 +5,21 @@
 .content__item {
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .content__item:first-child {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__item {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content__item {
+    margin-bottom: 64px;
+  }
+}
