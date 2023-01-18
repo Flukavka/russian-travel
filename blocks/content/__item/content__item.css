@@ -10,11 +10,15 @@
   .content__item:first-child {
     margin-top: 48px;
   }
+
+  .content__item {
+    margin: 0 auto 89px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .content__item {
-    margin: 0 auto 88px;
+    margin: 0 auto 84px;
   }
 }
 

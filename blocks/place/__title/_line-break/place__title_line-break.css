@@ -1,0 +1,6 @@
+@media screen and (min-width:426px) and (max-width: 768px) {
+
+  .place__title_line-break {
+    max-width: 320px;
+  }
+}
