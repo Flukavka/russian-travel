@@ -1,0 +1,32 @@
+.cover {
+  background: center center / cover no-repeat url(../../../images/cover__background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 245px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cover {
+    padding: 33px 0;
+  }
+}
