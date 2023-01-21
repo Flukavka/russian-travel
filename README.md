@@ -27,6 +27,6 @@
 - Flexbox
 - Grid
 
-**Ссылка**
+**Ссылка на Github pages**
 
-https://github.com/Flukavka/russian-travel
+https://flukavka.github.io/russian-travel/
