@@ -1,5 +1,5 @@
-.cover {
-  background: center center / cover no-repeat url(../../images/cover__background.jpg);
+.cover__link {
+  background: center center / cover no-repeat url(../../../images/cover__background.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-.cover::before {
+.cover__link::before {
   content: '';
   position: absolute;
   min-height: 100%;
@@ -19,30 +19,30 @@
   transition: opacity 0.4s linear;
 }
 
-.cover:hover::before {
+.cover__link:hover::before {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1200px) {
-  .cover {
+  .cover__link {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .cover {
+  .cover__link {
     padding: 195px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cover {
+  .cover__link {
     padding: 115px 0;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .cover {
+  .cover__link {
     padding: 33px 0;
   }
 }
